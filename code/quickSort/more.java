@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class quickSort {
+class quickSort {
 
     private static int[] a = { 1, 3, 2, 4, 5, 57, 6, 46, 4, 6, 45 };
 
