@@ -52,7 +52,7 @@ int main()
     for (i = 2; i <= num; i++)
     {
         // 计算第j个矩阵到第j+i-1个矩阵
-        for (j = 0; j <= num + 1 - i; j++)
+        for (j = 0; j <= num - i; j++)
         {
             // 先认为在j处分割是最优的
             int splitFlag = j;
